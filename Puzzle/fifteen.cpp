@@ -50,24 +50,9 @@ std::pair<size_t, size_t> fifteen::solvedposition(size_t val)
     return _pair;
 }
 
-/*size_t fifteen::hashvalue() const
-{
-    //std::cout << "test hashval";
-    size_t hashval = 0;
-
-    for(size_t i = 0; i < dimension; ++i)
-    {
-        for(size_t j = 0; j < dimension; ++j)
-        {
-            hashval *= ((i+7) * 17 + (j+5) * 61) * (i+j+257);
-        }
-    }
-    return hashval;
-}*/
 size_t fifteen::hashvalue( ) const
 {
         size_t w = 97;
-        //const size_t MOD = 1000000007;
 
         for(size_t i = 0; i < dimension; ++i)
         {
