@@ -47,6 +47,8 @@ std::pair<size_t, size_t> fifteen::solvedposition(size_t val)
     std::pair<size_t, size_t> _pair = std::make_pair((val-1)/dimension, (val-1) % dimension);
     if(val == 0)
     _pair = std::make_pair(dimension-1, dimension-1);
+    //std::cout << "val = " << val << std::endl;
+    //std::cout << "X = " << _pair.first << " Y = " << _pair.second << std::endl;
     return _pair;
 }
 
@@ -59,10 +61,8 @@ size_t fifteen::hashvalue( ) const
                 for(size_t j = 0; j < dimension; ++j)
                 {
 					w *= ((i+7) * 17 + (j+5) * 61) * (i+j+257);
-
                 }
         }
-
         return w;
 }
 

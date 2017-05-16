@@ -1,0 +1,1916 @@
+best = 
+1	3	4	12	
+5	2	7	11	
+9	6	14	10	
+13	15	0	8	
+distance = 16
+best = 
+1	3	4	12	
+5	2	7	11	
+9	6	0	10	
+13	15	14	8	
+distance = 16
+best = 
+1	3	4	12	
+5	2	7	11	
+9	6	10	0	
+13	15	14	8	
+distance = 14
+best = 
+1	3	4	12	
+5	2	7	11	
+9	6	10	8	
+13	15	14	0	
+distance = 12
+best = 
+1	3	4	12	
+5	2	7	0	
+9	6	10	11	
+13	15	14	8	
+distance = 14
+best = 
+1	3	4	12	
+5	2	7	11	
+9	6	10	8	
+13	15	0	14	
+distance = 14
+best = 
+1	3	4	0	
+5	2	7	12	
+9	6	10	11	
+13	15	14	8	
+distance = 14
+best = 
+1	3	4	12	
+5	2	7	11	
+9	6	10	8	
+13	0	15	14	
+distance = 14
+best = 
+1	3	0	4	
+5	2	7	12	
+9	6	10	11	
+13	15	14	8	
+distance = 14
+best = 
+1	3	7	4	
+5	2	0	12	
+9	6	10	11	
+13	15	14	8	
+distance = 14
+best = 
+1	0	3	4	
+5	2	7	12	
+9	6	10	11	
+13	15	14	8	
+distance = 14
+best = 
+1	2	3	4	
+5	0	7	12	
+9	6	10	11	
+13	15	14	8	
+distance = 12
+best = 
+1	2	3	4	
+5	6	7	12	
+9	0	10	11	
+13	15	14	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	0	11	
+13	15	14	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	11	0	
+13	15	14	8	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	11	8	
+13	15	14	0	
+distance = 4
+best = 
+1	2	3	4	
+5	6	7	0	
+9	10	11	12	
+13	15	14	8	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	11	8	
+13	15	0	14	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	11	8	
+13	0	15	14	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	14	11	
+13	15	0	8	
+distance = 8
+best = 
+1	2	3	0	
+5	6	7	4	
+9	10	11	12	
+13	15	14	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	14	11	
+13	15	8	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	0	7	
+9	10	11	12	
+13	15	14	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	0	11	8	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	7	
+9	10	0	12	
+13	15	14	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	11	0	8	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	7	
+9	10	14	12	
+13	15	0	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	7	
+9	10	12	0	
+13	15	14	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	7	
+9	10	12	8	
+13	15	14	0	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	12	
+9	11	15	8	
+13	10	0	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	11	15	8	
+13	10	14	0	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	14	11	
+13	0	15	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	7	
+9	10	12	8	
+13	15	0	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	7	
+9	10	14	12	
+13	0	15	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	11	15	0	
+13	10	14	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	0	8	
+13	15	11	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	7	
+9	10	12	8	
+13	0	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	11	8	
+0	13	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	8	0	
+13	15	11	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	0	
+9	11	15	12	
+13	10	14	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	11	8	0	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	0	
+9	10	8	12	
+13	15	11	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	8	14	
+13	15	11	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	0	
+9	11	8	12	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	11	8	14	
+13	10	15	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	7	
+9	10	14	12	
+13	15	8	0	
+distance = 8
+best = 
+1	2	0	3	
+5	6	7	4	
+9	10	11	12	
+13	15	14	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	0	12	
+9	11	7	8	
+13	10	15	14	
+distance = 10
+best = 
+1	2	3	4	
+5	6	7	12	
+9	15	10	11	
+13	0	14	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	7	12	
+9	15	10	11	
+13	14	0	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	15	10	11	
+13	14	8	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	11	8	14	
+13	10	0	15	
+distance = 10
+best = 
+1	2	3	4	
+5	6	12	0	
+9	11	7	8	
+13	10	15	14	
+distance = 10
+best = 
+1	2	3	4	
+5	6	12	8	
+9	11	7	0	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	12	8	
+9	11	7	14	
+13	10	15	0	
+distance = 8
+best = 
+1	2	0	4	
+5	6	3	7	
+9	10	11	12	
+13	15	14	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	7	12	
+9	15	10	0	
+13	14	8	11	
+distance = 10
+best = 
+1	2	3	4	
+5	6	11	7	
+9	0	10	12	
+13	15	14	8	
+distance = 10
+best = 
+1	2	4	0	
+5	6	3	7	
+9	10	11	12	
+13	15	14	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	7	0	
+9	15	10	12	
+13	14	8	11	
+distance = 10
+best = 
+1	2	3	4	
+5	6	11	7	
+9	15	10	12	
+13	0	14	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	11	7	
+9	15	10	12	
+13	14	0	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	7	
+9	15	10	12	
+13	14	8	0	
+distance = 8
+best = 
+1	2	4	7	
+5	6	3	0	
+9	10	11	12	
+13	15	14	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	11	7	
+9	10	14	0	
+13	15	8	12	
+distance = 10
+best = 
+1	2	3	4	
+5	6	11	7	
+9	15	0	12	
+13	14	10	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	11	7	
+9	15	10	0	
+13	14	8	12	
+distance = 10
+best = 
+1	2	4	7	
+5	6	3	12	
+9	10	11	0	
+13	15	14	8	
+distance = 10
+best = 
+1	2	4	7	
+5	6	3	12	
+9	10	11	8	
+13	15	14	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	12	8	
+9	11	0	7	
+13	10	15	14	
+distance = 10
+best = 
+1	2	3	4	
+5	6	12	8	
+9	11	7	14	
+13	10	0	15	
+distance = 10
+best = 
+1	2	3	4	
+5	0	7	12	
+9	6	11	8	
+13	10	15	14	
+distance = 10
+best = 
+1	2	3	4	
+5	0	6	7	
+9	10	11	12	
+13	15	14	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	14	0	
+13	15	8	11	
+distance = 10
+best = 
+1	2	3	4	
+5	6	7	12	
+9	15	0	11	
+13	14	10	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	7	12	
+9	15	11	0	
+13	14	10	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	15	11	8	
+13	14	10	0	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	0	
+9	15	11	12	
+13	14	10	8	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	15	11	8	
+13	14	0	10	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	12	
+9	10	8	14	
+13	15	0	11	
+distance = 10
+best = 
+1	2	3	0	
+5	6	7	4	
+9	11	8	12	
+13	10	15	14	
+distance = 10
+best = 
+1	2	7	3	
+5	6	0	4	
+9	10	11	12	
+13	15	14	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	11	7	
+9	10	14	12	
+0	13	15	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	0	7	
+9	11	15	12	
+13	10	14	8	
+distance = 10
+best = 
+1	2	3	4	
+5	6	0	7	
+9	11	8	12	
+13	10	15	14	
+distance = 10
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	0	12	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	15	12	
+13	10	0	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	15	12	
+13	10	14	0	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	7	
+9	0	11	12	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	10	11	12	
+13	0	15	14	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	7	
+9	10	11	12	
+13	15	0	14	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	7	
+9	10	11	12	
+13	15	14	0	
+distance = 4
+best = 
+1	2	3	4	
+5	6	8	7	
+9	10	11	0	
+13	15	14	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	12	0	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	15	0	
+13	10	14	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	12	14	
+13	10	15	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	10	11	12	
+0	13	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	10	0	12	
+13	15	11	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	0	
+9	10	11	7	
+13	15	14	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	10	12	0	
+13	15	11	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	0	8	
+9	10	11	7	
+13	15	14	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	10	12	14	
+13	15	11	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	10	0	7	
+13	15	14	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	10	7	0	
+13	15	14	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	11	8	
+9	10	7	12	
+13	15	14	0	
+distance = 4
+best = 
+1	2	3	4	
+5	6	11	8	
+9	10	7	12	
+13	15	0	14	
+distance = 6
+best = 
+1	2	3	4	
+5	6	11	8	
+9	10	7	12	
+13	0	15	14	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	7	
+9	10	0	11	
+13	15	14	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	10	14	7	
+13	15	0	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	0	
+9	10	7	8	
+13	15	14	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	10	0	12	
+13	15	7	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	0	7	12	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	10	14	11	
+13	15	0	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	10	12	0	
+13	15	7	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	0	12	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	10	14	11	
+13	0	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	10	14	11	
+13	15	12	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	10	12	14	
+13	15	7	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	0	8	
+9	7	11	12	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	15	12	
+13	10	0	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	15	12	
+13	10	14	0	
+distance = 6
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	12	0	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	0	
+9	7	11	12	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	15	0	
+13	10	14	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	12	14	
+13	10	15	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	12	
+9	7	11	0	
+13	10	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	10	14	7	
+13	0	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	10	14	7	
+13	15	12	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	12	
+9	7	11	14	
+13	10	15	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	0	8	
+9	10	11	12	
+13	15	7	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	10	7	12	
+0	13	15	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	0	
+9	10	11	12	
+13	15	7	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	12	
+9	10	11	0	
+13	15	7	14	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	12	
+9	10	11	14	
+13	15	7	0	
+distance = 8
+best = 
+1	2	3	0	
+5	6	8	4	
+9	7	11	12	
+13	10	15	14	
+distance = 10
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	0	15	
+13	10	14	12	
+distance = 10
+best = 
+1	2	3	4	
+5	6	11	8	
+9	0	14	7	
+13	10	15	12	
+distance = 10
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	0	7	
+13	10	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	7	0	
+13	10	15	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	7	12	
+13	10	15	0	
+distance = 4
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	7	12	
+13	10	0	15	
+distance = 6
+best = 
+1	2	3	4	
+5	6	0	8	
+9	14	11	7	
+13	10	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	15	7	
+13	10	0	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	0	
+9	14	7	8	
+13	10	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	0	12	
+13	10	7	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	7	12	
+13	0	10	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	0	
+9	14	11	7	
+13	10	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	11	0	
+13	10	15	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	11	12	
+13	10	15	0	
+distance = 4
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	11	12	
+13	10	0	15	
+distance = 6
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	15	7	
+13	10	12	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	0	8	
+9	14	11	12	
+13	10	7	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	12	0	
+13	10	7	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	0	7	12	
+13	14	10	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	0	11	
+13	10	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	0	12	
+13	10	11	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	0	
+9	14	11	12	
+13	10	7	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	12	15	
+13	10	7	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	0	12	
+13	14	10	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	10	12	
+13	14	0	15	
+distance = 6
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	10	12	
+13	14	15	0	
+distance = 4
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	10	0	
+13	14	15	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	15	11	
+13	10	0	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	12	0	
+13	10	11	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	12	0	
+13	14	10	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	10	12	
+13	0	14	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	0	
+9	7	10	8	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	0	10	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	15	11	
+13	10	12	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	12	15	
+13	10	11	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	12	15	
+13	14	10	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	0	8	
+9	7	11	10	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	15	10	
+13	14	0	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	0	7	10	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	0	
+9	7	11	10	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	7	15	10	
+13	14	12	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	7	10	
+13	0	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	10	
+9	7	11	0	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	10	
+9	7	11	12	
+13	14	15	0	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	12	
+9	14	11	0	
+13	10	7	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	7	10	
+13	15	0	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	10	
+9	7	11	12	
+13	14	0	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	12	
+9	14	11	15	
+13	10	7	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	11	8	
+9	14	7	10	
+13	15	12	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	11	12	
+13	0	10	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	0	8	
+9	7	11	12	
+13	14	10	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	0	11	12	
+13	14	10	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	0	
+9	7	11	12	
+13	14	10	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	0	12	
+13	14	10	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	10	12	
+13	14	0	15	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	10	12	
+13	14	15	0	
+distance = 4
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	10	0	
+13	14	15	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	12	
+9	7	11	0	
+13	14	10	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	12	0	
+13	14	10	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	10	12	
+13	0	14	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	12	15	
+13	14	10	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	0	
+9	11	10	7	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	0	10	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	0	8	
+9	11	10	7	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	15	10	
+13	14	0	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	0	11	10	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	11	0	7	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	11	7	0	
+13	14	15	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	10	8	
+9	11	7	12	
+13	14	15	0	
+distance = 4
+best = 
+1	2	3	4	
+5	6	10	8	
+9	11	7	12	
+13	14	0	15	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	15	10	
+13	14	12	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	11	10	
+13	0	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	11	15	7	
+13	14	0	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	0	11	7	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	0	
+9	11	7	8	
+13	14	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	11	0	12	
+13	14	7	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	11	15	7	
+13	14	12	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	14	11	7	
+13	0	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	11	7	12	
+13	0	14	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	0	8	
+9	11	10	12	
+13	14	7	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	0	11	12	
+13	14	7	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	11	12	0	
+13	14	7	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	14	11	7	
+13	15	0	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	0	
+9	11	10	12	
+13	14	7	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	14	11	12	
+13	0	7	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	11	12	15	
+13	14	7	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	14	11	7	
+13	15	12	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	12	
+9	11	10	0	
+13	14	7	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	14	11	12	
+13	7	0	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	14	11	12	
+13	7	15	0	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	11	10	
+13	15	0	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	12	
+9	11	10	15	
+13	14	7	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	10	8	
+9	14	11	0	
+13	7	15	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	14	11	10	
+13	15	12	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	12	
+9	7	11	15	
+13	14	10	0	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	7	
+9	11	10	12	
+0	13	14	15	
+distance = 10
+best = 
+1	2	3	4	
+5	6	10	8	
+9	14	0	12	
+13	7	11	15	
+distance = 10
+best = 
+1	2	3	4	
+5	6	8	12	
+9	11	0	10	
+13	14	7	15	
+distance = 10
+best = 
+1	2	3	4	
+5	6	8	12	
+9	11	7	10	
+13	14	0	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	12	
+9	11	7	10	
+13	14	15	0	
+distance = 6
+best = 
+1	2	3	4	
+5	6	8	12	
+9	11	7	0	
+13	14	15	10	
+distance = 8
+best = 
+1	2	3	4	
+5	6	8	0	
+9	11	7	12	
+13	14	15	10	
+distance = 8
+best = 
+1	2	3	4	
+5	6	0	8	
+9	11	7	12	
+13	14	15	10	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	0	12	
+13	14	15	10	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	15	12	
+13	14	0	10	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	15	12	
+13	14	10	0	
+distance = 4
+best = 
+1	2	3	4	
+5	6	7	8	
+9	0	11	12	
+13	14	15	10	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	12	0	
+13	14	15	10	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	12	10	
+13	14	15	0	
+distance = 4
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	15	0	
+13	14	10	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	14	11	12	
+13	0	15	10	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	12	10	
+13	14	0	15	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	14	11	12	
+13	15	0	10	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	14	11	12	
+13	15	10	0	
+distance = 4
+best = 
+1	2	3	4	
+5	6	7	8	
+9	14	11	0	
+13	15	10	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	15	12	
+13	0	14	10	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	8	
+0	9	11	12	
+13	14	15	10	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	0	
+9	11	12	8	
+13	14	15	10	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	0	
+9	11	15	8	
+13	14	10	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	0	10	
+13	14	12	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	10	0	
+13	14	12	15	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	10	15	
+13	14	12	0	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	10	15	
+13	14	0	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	11	12	10	
+13	0	14	15	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	8	
+13	9	11	12	
+0	14	15	10	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	0	
+9	14	11	8	
+13	15	10	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	8	
+9	14	0	11	
+13	15	10	12	
+distance = 8
+best = 
+1	2	3	4	
+5	6	7	8	
+9	14	10	11	
+13	15	0	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	14	10	11	
+13	0	15	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	14	10	11	
+13	15	12	0	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	0	10	11	
+13	14	15	12	
+distance = 6
+best = 
+1	2	3	4	
+5	6	7	8	
+9	10	0	11	
+13	14	15	12	
+distance = 4
+best = 
+1	2	3	4	
+5	6	7	8	
+9	10	11	0	
+13	14	15	12	
+distance = 2
+best = 
+1	2	3	4	
+5	6	7	8	
+9	10	11	12	
+13	14	15	0	
+distance = 0
+70	expected: 71
+negative move : move-up	expected move : move-down
+71	expected: 70
+71	expected: 70
+69	expected: 70
+negative move : move-left	expected move : move-right
+70	expected: 69
+70	expected: 69
+68	expected: 69
+negative move : move-left	expected move : move-right
+69	expected: 68
+67	expected: 68
+negative move : move-down	expected move : move-up
+68	expected: 67
+68	expected: 67
+66	expected: 67
+negative move : move-right	expected move : move-left
+65	expected: 66
+negative move : move-up	expected move : move-down
+66	expected: 65
+66	expected: 65
+66	expected: 65
+64	expected: 65
+negative move : move-right	expected move : move-left
+65	expected: 64
+63	expected: 64
+negative move : move-down	expected move : move-up
+64	expected: 63
+62	expected: 63
+negative move : move-left	expected move : move-right
+63	expected: 62
+61	expected: 62
+negative move : move-left	expected move : move-right
+60	expected: 61
+negative move : move-up	expected move : move-down
+61	expected: 60
+61	expected: 60
+61	expected: 60
+59	expected: 60
+negative move : move-right	expected move : move-left
+58	expected: 59
+negative move : move-up	expected move : move-down
+59	expected: 58
+59	expected: 58
+59	expected: 58
+57	expected: 58
+negative move : move-right	expected move : move-left
+58	expected: 57
+56	expected: 57
+negative move : move-down	expected move : move-up
+57	expected: 56
+55	expected: 56
+negative move : move-down	expected move : move-up
+56	expected: 55
+54	expected: 55
+negative move : move-left	expected move : move-right
+53	expected: 54
+negative move : move-up	expected move : move-down
+54	expected: 53
+54	expected: 53
+54	expected: 53
+52	expected: 53
+negative move : move-right	expected move : move-left
+51	expected: 52
+negative move : move-up	expected move : move-down
+52	expected: 51
+52	expected: 51
+50	expected: 51
+negative move : move-left	expected move : move-right
+51	expected: 50
+49	expected: 50
+negative move : move-down	expected move : move-up
+50	expected: 49
+48	expected: 49
+negative move : move-down	expected move : move-up
+49	expected: 48
+49	expected: 48
+47	expected: 48
+negative move : move-right	expected move : move-left
+46	expected: 47
+negative move : move-up	expected move : move-down
+47	expected: 46
+47	expected: 46
+45	expected: 46
+negative move : move-left	expected move : move-right
+44	expected: 45
+negative move : move-up	expected move : move-down
+45	expected: 44
+45	expected: 44
+45	expected: 44
+43	expected: 44
+negative move : move-right	expected move : move-left
+44	expected: 43
+42	expected: 43
+negative move : move-down	expected move : move-up
+43	expected: 42
+41	expected: 42
+negative move : move-down	expected move : move-up
+42	expected: 41
+40	expected: 41
+negative move : move-left	expected move : move-right
+39	expected: 40
+negative move : move-up	expected move : move-down
+40	expected: 39
+40	expected: 39
+38	expected: 39
+negative move : move-left	expected move : move-right
+39	expected: 38
+37	expected: 38
+negative move : move-down	expected move : move-up
+38	expected: 37
+38	expected: 37
+36	expected: 37
+negative move : move-right	expected move : move-left
+37	expected: 36
+37	expected: 36
+35	expected: 36
+negative move : move-right	expected move : move-left
+34	expected: 35
+negative move : move-up	expected move : move-down
+33	expected: 34
+negative move : move-up	expected move : move-down
+34	expected: 33
+34	expected: 33
+32	expected: 33
+negative move : move-left	expected move : move-right
+33	expected: 32
+31	expected: 32
+negative move : move-down	expected move : move-up
+32	expected: 31
+32	expected: 31
+30	expected: 31
+negative move : move-left	expected move : move-right
+31	expected: 30
+29	expected: 30
+negative move : move-down	expected move : move-up
+30	expected: 29
+30	expected: 29
+28	expected: 29
+negative move : move-right	expected move : move-left
+27	expected: 28
+negative move : move-up	expected move : move-down
+26	expected: 27
+negative move : move-up	expected move : move-down
+27	expected: 26
+27	expected: 26
+27	expected: 26
+25	expected: 26
+negative move : move-right	expected move : move-left
+26	expected: 25
+24	expected: 25
+negative move : move-down	expected move : move-up
+25	expected: 24
+23	expected: 24
+negative move : move-down	expected move : move-up
+24	expected: 23
+22	expected: 23
+negative move : move-left	expected move : move-right
+23	expected: 22
+21	expected: 22
+negative move : move-left	expected move : move-right
+20	expected: 21
+negative move : move-up	expected move : move-down
+21	expected: 20
+21	expected: 20
+21	expected: 20
+19	expected: 20
+negative move : move-right	expected move : move-left
+18	expected: 19
+negative move : move-up	expected move : move-down
+19	expected: 18
+19	expected: 18
+19	expected: 18
+17	expected: 18
+negative move : move-right	expected move : move-left
+18	expected: 17
+16	expected: 17
+negative move : move-down	expected move : move-up
+17	expected: 16
+17	expected: 16
+15	expected: 16
+negative move : move-left	expected move : move-right
+16	expected: 15
+16	expected: 15
+14	expected: 15
+negative move : move-left	expected move : move-right
+15	expected: 14
+13	expected: 14
+negative move : move-down	expected move : move-up
+14	expected: 13
+14	expected: 13
+12	expected: 13
+negative move : move-right	expected move : move-left
+13	expected: 12
+13	expected: 12
+11	expected: 12
+negative move : move-right	expected move : move-left
+10	expected: 11
+negative move : move-up	expected move : move-down
+11	expected: 10
+11	expected: 10
+9	expected: 10
+negative move : move-left	expected move : move-right
+10	expected: 9
+10	expected: 9
+8	expected: 9
+negative move : move-left	expected move : move-right
+7	expected: 8
+negative move : move-up	expected move : move-down
+6	expected: 7
+negative move : move-up	expected move : move-down
+7	expected: 6
+7	expected: 6
+5	expected: 6
+negative move : move-right	expected move : move-left
+6	expected: 5
+6	expected: 5
+4	expected: 5
+negative move : move-right	expected move : move-left
+3	expected: 4
+negative move : move-down	expected move : move-up
+4	expected: 3
+2	expected: 3
+negative move : move-down	expected move : move-up
+3	expected: 2
+3	expected: 2
+1	expected: 2
+negative move : move-left	expected move : move-right
+2	expected: 1
+0	expected: 1
+negative move : move-down	expected move : move-up
+move-up
+move-right
+move-up
+move-up
+move-left
+move-left
+move-down
+move-down
+move-right
+move-right
+move-down
+move-left
+move-left
+move-up
+move-right
+move-right
+move-up
+move-left
+move-down
+move-left
+move-down
+move-right
+move-right
+move-up
+move-up
+move-left
+move-down
+move-down
+move-left
+move-up
+move-right
+move-up
+move-right
+move-down
+move-down
+move-left
+move-left
+move-up
+move-right
+move-down
+move-right
+move-up
+move-up
+move-left
+move-down
+move-right
+move-down
+move-left
+move-up
+move-up
+move-right
+move-down
+move-left
+move-down
+move-right
+move-up
+move-up
+move-left
+move-down
+move-left
+move-down
+move-right
+move-right
+move-up
+move-left
+move-down
+move-left
+move-up
+move-right
+move-right
+move-down
