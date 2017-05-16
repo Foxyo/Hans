@@ -111,15 +111,15 @@ main()
   };
 
   auto dist = solve(puzzle);
-  /*for (const auto& p : dist)
+  for (const auto& p : dist)
    {
     std::cout << "---------------------------\n";
     std::cout << p.first << " " << p.second << "\n";
-    }*/
+    }
 
-  /*auto path = findpath(dist, fifteen(), dist[fifteen()]);
+  auto path = findpath(dist, fifteen(), dist[fifteen()]);
   for (move m : path)
-    std::cout << m << "\n";*/
+    std::cout << m << "\n";
 
   return 0;
 }
