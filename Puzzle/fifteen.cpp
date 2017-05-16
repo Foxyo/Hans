@@ -66,16 +66,18 @@ std::pair<size_t, size_t> fifteen::solvedposition(size_t val)
 }*/
 size_t fifteen::hashvalue( ) const
 {
-        size_t w = 0;
-        const size_t MOD = 1000000007;
+        size_t w = 97;
+        //const size_t MOD = 1000000007;
 
         for(size_t i = 0; i < dimension; ++i)
         {
                 for(size_t j = 0; j < dimension; ++j)
                 {
-                         size_t w1 = ( (i+3) * 17 + (j + 7) * 29);
+					w *= ((i+7) * 17 + (j+5) * 61) * (i+j+257);
+
+                        /* size_t w1 = ( (i+3) * 17 + (j + 7) * 29);
                          size_t w2 = i + j + 41;
-                         w = (( (w+w1) % MOD ) * w2) % MOD;
+                         w = (( (w+w1) % MOD ) * w2) % MOD;*/
                 }
         }
 
