@@ -15,11 +15,11 @@ fifteen::fifteen(std::initializer_list<std::initializer_list<size_t>> init_l)
 {
     size_t i = 0, j = 0;
 
-    for(auto it_i = init_l.begin(); i < dimension && it_i != init_l.end(); ++it_i, ++i)
+    for(auto it_i = init_l.begin(); i < dimension && it_i != init_l.end(); ++i, ++it_i)
     {
         j = 0;
 
-        for(auto it_j = (*it_i).begin(); j < dimension && it_j != (*it_i).end(); ++it_j, ++j)
+        for(auto it_j = (*it_i).begin(); j < dimension && it_j != (*it_i).end(); ++j, ++it_j)
         {
             table[i][j] = *it_j;
 
@@ -43,15 +43,18 @@ std::ostream& operator << (std::ostream& stream, const fifteen& puzzle)
 
 std::pair<size_t, size_t> fifteen::solvedposition(size_t val)
 {
-    std::pair<size_t, size_t> _pair = std::make_pair((val-1)/dimension, (val-1)%dimension);
+    //std::cout << "test solvedpos";
+    std::pair<size_t, size_t> _pair = std::make_pair((val-1)/dimension, (val-1) % dimension);
     if(val == 0)
     _pair = std::make_pair(dimension-1, dimension-1);
     return _pair;
 }
 
-size_t fifteen::hashvalue() const
+/*size_t fifteen::hashvalue() const
 {
-    size_t hashval = 97;
+    //std::cout << "test hashval";
+    size_t hashval = 0;
+
     for(size_t i = 0; i < dimension; ++i)
     {
         for(size_t j = 0; j < dimension; ++j)
@@ -60,10 +63,29 @@ size_t fifteen::hashvalue() const
         }
     }
     return hashval;
+}*/
+size_t fifteen::hashvalue( ) const
+{
+        size_t w = 0;
+        const size_t MOD = 1000000007;
+
+        for(size_t i = 0; i < dimension; ++i)
+        {
+                for(size_t j = 0; j < dimension; ++j)
+                {
+                         size_t w1 = ( (i+3) * 17 + (j + 7) * 29);
+                         size_t w2 = i + j + 41;
+                         w = (( (w+w1) % MOD ) * w2) % MOD;
+                }
+        }
+
+        return w;
 }
+
 
 bool fifteen::equals(const fifteen& diff_table) const
 {
+    //std::cout << "test equals";
     for(size_t i = 0; i < dimension; ++i)
     {
         for(size_t j = 0; j < dimension; ++j)
@@ -72,11 +94,13 @@ bool fifteen::equals(const fifteen& diff_table) const
                 return false;
         }
     }
+    return true;
 }
 
 size_t fifteen::distance() const
 {
-    size_t _distance;
+    //std::cout << "test distance";
+    size_t _distance = 0;
 
     for(size_t i = 0; i < dimension; ++i)
     {
@@ -93,44 +117,46 @@ size_t fifteen::distance() const
 
 bool fifteen::issolved() const
 {
-    return (distance() == 0);
+    //std::cout << "test issolved";
+    return distance() == 0;
 }
 
-void fifteen::makemove(move m)
+void fifteen::makemove(move p)
 {
-    switch(m)
-    {
-        case move::left:
-            if(open_j == 0)
-                throw illegalmove(m);
-            else {
-                std::swap(table[open_i][open_j], table[open_i][open_j-1]);
-                open_j -= 1;
-            }
-            break;
-        case move::right:
-            if(open_j == dimension - 1)
-                throw illegalmove(m);
-            else {
-                std::swap(table[open_i][open_j], table[open_i][open_j+1]);
-                open_i += 1;
-            }
-            break;
-        case move::up:
-            if(open_i == 0)
-                throw illegalmove(m);
-            else {
-                std::swap(table[open_i][open_j], table[open_i-1][open_j]);
-                open_i -= 1;
-            }
-            break;
-        case move::down:
-            if(open_i == dimension - 1)
-                throw illegalmove(m);
-            else {
-                std::swap(table[open_i][open_j], table[open_i+1][open_j]);
-                open_i += 1;
-            }
-            break;
-    }
+ 	switch (p)
+	{
+    	case move::left:
+      		if (open_j == 0)
+				throw illegalmove(p);
+      		else {
+        		std::swap(table[open_i][open_j], table[open_i][open_j-1]);
+        		open_j -= 1;
+      		}
+      		break;
+    	case move::up:
+	      	if (open_i == 0)
+				throw illegalmove(p);
+	      	else {
+	        	std::swap(table[open_i][open_j], table[open_i-1][open_j]);
+	        	open_i -= 1;
+	      	}
+	      	break;
+    	case move::down:
+	    	if (open_i == dimension-1)
+		  		throw illegalmove(p);
+	      	else {
+			  std::swap(table[open_i][open_j], table[open_i+1][open_j]);
+			  open_i += 1;
+	      	}
+	      break;
+    	case move::right:
+      		if (open_j == dimension-1)
+				throw illegalmove(p);
+      		else {
+        		std::swap(table[open_i][open_j], table[open_i][open_j+1]);
+        		open_j += 1;
+      		}
+      	break;
+  	}
+
 }

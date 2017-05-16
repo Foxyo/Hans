@@ -71,16 +71,37 @@ solve( const fifteen& start )
 
 
 std::list<move>
-findpath(const leveltable& levels, fifteen f, unsigned int level)
+findpath(const leveltable& levels, fifteen puzzle, unsigned int level)
 {
+    std::vector<move> moves = { move::up, move::down, move::left, move::right };
+      // All possible moves in a vector.
+    std::list<move> path;
 
-  std::vector<move> moves = { move::up, move::down, move::left, move::right };
-  // All possible moves in a vector.
-
-  std::list<move> path;
-
-  return path;
-}
+    while(level)
+    {
+          for(auto i : moves)
+          {
+              try
+              {
+                  fifteen temp = puzzle;
+                  temp.makemove(i);
+                  auto lv = levels.at(temp);
+                  std::cout << lv << "\texpected: " << level << "\n";
+                  if(lv + 1 == level)
+                  {
+                      level--;
+                      puzzle = temp;
+                      std::cout << "negative move : " << i << "\texpected move : " << (-i) << std::endl;
+                      path.push_front(-i);
+                      break;
+                  }
+              }
+              catch(illegalmove& e){}
+              catch(std::out_of_range& e){}
+          }
+      }
+      return path;
+  }
 
 int
 main()
@@ -95,14 +116,14 @@ main()
   };
 
   auto dist = solve(puzzle);
-  for (const auto& p : dist) {
+  /*for (const auto& p : dist) {
     std::cout << "---------------------------\n";
     std::cout << p.first << " " << p.second << "\n";
-  }
+}*/
 
-  /*auto path = findpath(dist, fifteen(), dist[fifteen()]);
+  auto path = findpath(dist, fifteen(), dist[fifteen()]);
   for (move m : path)
-    std::cout << m << "\n";*/
+    std::cout << m << "\n";
 
   return 0;
 }

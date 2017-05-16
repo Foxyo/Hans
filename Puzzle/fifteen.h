@@ -73,7 +73,7 @@ public:
   size_t hashvalue() const;
   // Construct a hash value on the state.
 
-  bool equals(const fifteen& diff_table) const;
+  bool equals(const fifteen& other) const;
   // True if we are equal to other.
 
   friend std::ostream& operator<<(std::ostream&, const fifteen& puzzle);
@@ -99,9 +99,9 @@ struct fifteen_equals
 
 struct fifteen_hash
 {
-  inline size_t operator()(const fifteen& f) const { return f.hashvalue(); }
+  inline size_t operator()(const fifteen& puzzle) const { return puzzle.hashvalue(); }
 };
 
-std::ostream& operator<<(std::ostream& stream, const fifteen& f);
+std::ostream& operator<<(std::ostream& stream, const fifteen& puzzle);
 
 #endif
